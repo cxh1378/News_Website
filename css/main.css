@@ -1,0 +1,133 @@
+a:hover {
+    text-decoration: none;
+}
+.navbar-brand{
+  background-image: url("../img/logo.png");
+  width: 50px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.list-group .list-group-item{
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.list-group .list-group-item.active{
+  background-color: #ea0c3c;
+}
+.news-list .news-list-item{
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.news-list .news-list-item img{
+  width: 100%;
+}
+.news-list .news-list-item .news-title{
+  display: block;
+  color: #444;
+  font-size: 130%;
+  margin-bottom: 10px;
+}
+.news-list .news-list-item .news-title:hover{
+  color: #337ab7;
+}
+.news-list .news-list-item .news-desc{
+  color:rgba(0,0,0,0.5);
+}
+.news-list .news-list-item .avatar img{
+  width:16px;
+  height:16px;
+  margin-right: 10px;
+}
+.form-control{
+  margin-bottom: 20px;
+}
+.sider-bar-card{
+  margin-bottom: 20px;
+  padding:10px 0;
+  background-color:rgba(0, 0, 0, 0.05);
+}
+.sider-bar-card img{
+  width:100%;
+}
+.sider-bar-card .sider-bar-card-waring{
+  font-size: 130%;
+  margin-bottom: 5px;
+}
+.sider-bar-card .sider-bar-card-title{
+  font-size: 130%;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.sider-bar-card .list .item{
+  margin-bottom: 20px;
+}
+.sider-bar-card .list .item .title{
+  padding: 0 20px;
+ margin-bottom: 5px;
+}
+.sider-bar-card .list .item .title.clear-left-pd{
+  padding-left: 0;
+}
+.sider-bar-card .list .item .desc{
+  padding: 0 20px;
+  color:rgba(0,0,0,0.5);
+}
+.sider-bar-card .list .item .desc.clear-left-pd{
+  padding-left: 0;
+}
+.news-desc-title{
+  font-size: 230%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.news-desc{
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.news-text{
+  line-height: 1.5;
+}
+.news-text img{
+  margin: 10px 0;
+  width:100%;
+}
+.max {
+  max-width: 500px;
+}
+.btn-primary {
+  background-color: #ea0c3c;
+  border-color: #db0d3a;
+}
+.btn-primary:hover {
+  background-color: #d50c37;
+  border-color: #d50c37;
+}
+.footer {
+  margin-top: 20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #999;
+}
+#toggle-checkbox:checked ~ div {
+  display: block !important;
+  margin-top: 70px;
+}
+
+#toggle-label {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+  display: none;
+}
+
+#toggle-label:hover {
+  color: #333;
+}
